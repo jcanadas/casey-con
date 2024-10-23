@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  gap: 2em;
+}
+
+.item {
+  display: grid;
+  gap: 0.5em;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+}

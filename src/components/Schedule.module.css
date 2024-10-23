@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  gap: 1em;
+}
+
+.day {
+  display: grid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.item {
+  padding: 1em;
+  background-color: var(--secondary-background-color);
+  display: grid;
+  gap: 0.5em;
+}
+
+.item:not(:last-child) {
+  border-bottom: solid 3px var(--background-color);
+}
+
+.item a {
+  text-decoration: underline;
+}
+
+.itemLabel {
+  font-size: 1.1em;
+}
+
+.itemTime {
+  font-size: 0.9em;
+  color: var(--secondary-text-color);
+}
+
+.dayHeading {
+  font-weight: bold;
+  border-bottom: var(--primary-border);
+  padding: 1em;
+  background-color: var(--secondary-background-color);
+}
