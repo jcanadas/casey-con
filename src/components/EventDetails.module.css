@@ -11,6 +11,8 @@
 }
 
 .buyButton {
+  font-size: 1.35em;
+  font-weight: bold;
   background-color: var(--text-color);
   color: var(--background-color);
   padding: 1em 1.5em;
@@ -22,6 +24,11 @@
 
 .buyButton:hover {
   opacity: 0.8;
+}
+
+.ticketNote {
+  font-size: 0.9em;
+  color: var(--secondary-text-color);
 }
 
 .discordButton {

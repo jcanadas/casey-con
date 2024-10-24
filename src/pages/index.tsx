@@ -23,9 +23,10 @@ const IndexPage: React.FC<PageProps> = () => {
 
           <div className={styles.headerDetails}>
             <div>
-              A Two-Day Magic: The Gathering Cube Event in Baltimore, MD
+              A Two-Day <em>Magic: The Gathering</em> Cube Event in Baltimore,
+              MD
             </div>
-            <p>March 8-9, 2025</p>
+            <p>March 8 - 9, 2025</p>
           </div>
         </div>
 

@@ -4,11 +4,7 @@ import React from 'react'
 
 import * as Typography from 'src/components/general/Typography'
 
-interface Props {}
-
-export const Schedule: React.FC<Props> = (props) => {
-  const {} = props
-
+export const Schedule: React.FC = () => {
   return (
     <div className={styles.container}>
       <Typography.SecondaryHeading>Event Schedule</Typography.SecondaryHeading>
@@ -41,7 +37,7 @@ export const Schedule: React.FC<Props> = (props) => {
               2125 Maryland Avenue
             </a>
           </div>
-          <div className={styles.itemTime}>7/7:30 onward</div>
+          <div className={styles.itemTime}>~7:30pm onward</div>
         </div>
       </div>
 
@@ -49,18 +45,25 @@ export const Schedule: React.FC<Props> = (props) => {
         <h3 className={styles.dayHeading}>Sunday</h3>
 
         <div className={styles.item}>
+          <div className={styles.itemLabel}>Casual Events TBD</div>
+          <div className={styles.itemTime}>
+            (Event venue closed in the morning)
+          </div>
+        </div>
+
+        <div className={styles.item}>
           <div className={styles.itemLabel}>Draft #3</div>
           <div className={styles.itemTime}>12:30pm - 4:30pm</div>
         </div>
 
         <div className={styles.item}>
-          <div className={styles.itemLabel}>Dinner</div>
-          <div className={styles.itemTime}>4:30pm - 5:30</div>
+          <div className={styles.itemLabel}>Dinner Break</div>
+          <div className={styles.itemTime}>4:30pm - 5:30pm</div>
         </div>
 
         <div className={styles.item}>
           <div className={styles.itemLabel}>Draft #4 & Top 8 Draft</div>
-          <div className={styles.itemTime}>5:30pm - 9:30</div>
+          <div className={styles.itemTime}>5:30pm - 9:30pm</div>
         </div>
       </div>
     </div>
