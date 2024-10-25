@@ -2,11 +2,7 @@ import * as styles from './Footer.module.css'
 
 import React from 'react'
 
-interface Props {}
-
-export const Footer: React.FC<Props> = (props) => {
-  const {} = props
-
+export const Footer: React.FC = () => {
   return (
     <div className={styles.container}>
       <p>

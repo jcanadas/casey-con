@@ -21,6 +21,7 @@
 
 .logo {
   max-width: 30em;
+  transform: rotate(-4deg);
 }
 
 .headerDetails {
@@ -47,4 +48,8 @@
   .schedule {
     order: -1;
   }
+}
+
+.secondaryContent {
+  max-width: 700px;
 }

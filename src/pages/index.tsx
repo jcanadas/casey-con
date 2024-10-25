@@ -8,8 +8,8 @@ import { Logo } from 'src/components/Logo'
 import { Schedule } from 'src/components/Schedule'
 import { Footer } from 'src/components/Footer'
 import { EventDetails } from 'src/components/EventDetails'
-import { CubeList } from 'src/components/CubeList'
-import { LocalAmenities } from 'src/components/LocalAmenities'
+// import { CubeList } from 'src/components/CubeList'
+// import { LocalAmenities } from 'src/components/LocalAmenities'
 import { FAQ } from 'src/components/FAQ'
 
 const IndexPage: React.FC<PageProps> = () => {
@@ -38,7 +38,9 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
         </div>
 
-        <FAQ />
+        <div className={styles.secondaryContent}>
+          <FAQ />
+        </div>
 
         {/* <LocalAmenities /> */}
 
