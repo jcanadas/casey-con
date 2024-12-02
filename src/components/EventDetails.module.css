@@ -4,6 +4,17 @@
   align-content: start;
 }
 
+.soldOut {
+  display: grid;
+  gap: 1em;
+}
+
+.soldOutHeading {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
 .ticketInfo {
   display: grid;
   gap: 0.5em;
@@ -31,7 +42,7 @@
   color: var(--secondary-text-color);
 }
 
-.discordButton {
+.largeButton {
   border: var(--primary-border);
   padding: 1em 1.5em;
   display: block;
@@ -40,7 +51,7 @@
   transition: background 250ms;
 }
 
-.discordButton:hover {
+.largeButton:hover {
   background-color: var(--secondary-background-color);
 }
 

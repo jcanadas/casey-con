@@ -4,20 +4,43 @@ import * as React from 'react'
 
 import * as Typography from 'src/components/general/Typography'
 
+const soldOut = true
+
 export const EventDetails: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.ticketInfo}>
-        <a
-          href="https://www.eventbrite.com/e/the-salt-box-tickets-1057472070429?aff=oddtdtcreator"
-          className={styles.buyButton}
-        >
-          Buy Tickets - $45
-        </a>
-        <p className={styles.ticketNote}>72 Total Seats Available</p>
+        {soldOut ? (
+          <div className={styles.soldOut}>
+            <div className={styles.soldOutHeading}>Tickets Sold Out</div>
+
+            <p>
+              <a href="https://www.eventbrite.com/e/the-salt-box-tickets-1057472070429?aff=oddtdtcreator">
+                View Details on EventBrite
+              </a>
+            </p>
+
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScsug9tBx0yQudhn-Cq4ToiJXVb3iecCV0RfiGz3uuvxZKcXg/viewform"
+              className={styles.largeButton}
+            >
+              Join Waitlist
+            </a>
+          </div>
+        ) : (
+          <>
+            <a
+              href="https://www.eventbrite.com/e/the-salt-box-tickets-1057472070429?aff=oddtdtcreator"
+              className={styles.buyButton}
+            >
+              Buy Tickets - $45
+            </a>
+            <p className={styles.ticketNote}>72 Total Seats Available</p>
+          </>
+        )}
       </div>
 
-      <a href="https://discord.gg/eQgEnpQgeb" className={styles.discordButton}>
+      <a href="https://discord.gg/eQgEnpQgeb" className={styles.largeButton}>
         Join the Discord Server
       </a>
 
