@@ -45,25 +45,22 @@ export const Schedule: React.FC = () => {
         <h3 className={styles.dayHeading}>Sunday</h3>
 
         <div className={styles.item}>
-          <div className={styles.itemLabel}>Casual Events TBD</div>
-          <div className={styles.itemTime}>
-            (Event venue closed in the morning)
-          </div>
-        </div>
-
-        <div className={styles.item}>
           <div className={styles.itemLabel}>Draft #3</div>
-          <div className={styles.itemTime}>12:30pm - 4:30pm</div>
+          <div className={styles.itemTime}>9am - 1pm</div>
         </div>
 
         <div className={styles.item}>
-          <div className={styles.itemLabel}>Dinner Break</div>
-          <div className={styles.itemTime}>4:30pm - 5:30pm</div>
+          <div className={styles.itemLabel}>Lunch Break</div>
+          <div className={styles.itemTime}>1pm - 2pm</div>
         </div>
 
         <div className={styles.item}>
           <div className={styles.itemLabel}>Draft #4 & Top 8 Draft</div>
-          <div className={styles.itemTime}>5:30pm - 9:30pm</div>
+          <div className={styles.itemTime}>2pm - 6pm</div>
+        </div>
+
+        <div className={styles.item}>
+          <div className={styles.itemLabel}>Casual Bonus Cube</div>
         </div>
       </div>
     </div>
