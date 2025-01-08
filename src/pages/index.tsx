@@ -58,6 +58,14 @@ export const Head: HeadFC = () => {
   return (
     <>
       <title>The Salt Box</title>
+
+      <meta
+        property="og:image"
+        content="http://thesaltbox.fun/the-salt-box-og.png"
+      />
+      <meta property="og:image-width" content="1200" />
+      <meta property="og:image-height" content="630" />
+
       <meta
         name="description"
         content="A Two-Day Magic: The Gathering Cube Event in Baltimore, MD"
