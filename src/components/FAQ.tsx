@@ -28,7 +28,7 @@ export const FAQ: React.FC = () => {
         <p className={styles.answer}>
           The event is named after the iconic &ldquo;Salt Boxes&rdquo; of
           Baltimore City. The city provides salt boxes filled with salt and sand
-          for de-icing sidewalks to residents turning the winter months.{' '}
+          for de-icing sidewalks to residents during the winter months.{' '}
           <a href="https://en.wikipedia.org/wiki/Baltimore_salt_box">
             More on Wikipedia
           </a>
