@@ -1,6 +1,7 @@
 import * as styles from './index.module.css'
 
 import * as React from 'react'
+import { graphql } from 'gatsby'
 import type { HeadFC, PageProps } from 'gatsby'
 
 import { Layout } from 'src/components/layout/Layout'
@@ -12,7 +13,9 @@ import { CubeList } from 'src/components/CubeList'
 // import { LocalAmenities } from 'src/components/LocalAmenities'
 import { FAQ } from 'src/components/FAQ'
 
-const IndexPage: React.FC<PageProps> = () => {
+const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = (props) => {
+  const cubes = [...props.data.allCubesYaml.cubes]
+
   return (
     <Layout>
       <div className={styles.container}>
@@ -44,13 +47,28 @@ const IndexPage: React.FC<PageProps> = () => {
 
         {/* <LocalAmenities /> */}
 
-        <CubeList />
+        <CubeList cubes={cubes} />
 
         <Footer />
       </div>
     </Layout>
   )
 }
+
+export const query = graphql`
+  query HomePage {
+    allCubesYaml {
+      cubes: nodes {
+        name
+        url
+        designer
+        designerURL
+        imageURL
+        description
+      }
+    }
+  }
+`
 
 export default IndexPage
 

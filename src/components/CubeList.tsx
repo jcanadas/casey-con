@@ -1,37 +1,25 @@
 import * as styles from './CubeList.module.css'
 
 import * as React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
 
 import * as Typography from 'src/components/general/Typography'
 
 const cornerWidth = 30
 const cornerHeight = 30
 
-export const CubeList: React.FC = () => {
-  const { allCubesYaml } = useStaticQuery(graphql`
-    query CubesQuery {
-      allCubesYaml {
-        cubes: nodes {
-          name
-          url
-          designer
-          designerURL
-          imageURL
-          description
-        }
-      }
-    }
-  `)
-
-  const cubes: {
-    name: string
-    url: string
-    designer: string
+interface Props {
+  cubes: {
+    name: string | null
+    url: string | null
+    designer: string | null
     designerURL: string | null
-    imageURL: string
-    description: string
-  }[] = allCubesYaml.cubes
+    imageURL: string | null
+    description: string | null
+  }[]
+}
+
+export const CubeList: React.FC<Props> = (props) => {
+  const { cubes } = props
 
   return (
     <div className={styles.container}>
