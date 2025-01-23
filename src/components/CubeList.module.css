@@ -1,2 +1,93 @@
 .container {
+  display: grid;
+  gap: 1em;
+}
+
+.cubes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-gap: 20px;
+}
+
+.cube {
+  position: relative;
+}
+
+.cubeMain {
+  position: relative;
+  display: grid;
+  gap: 0.5em;
+  border: solid 2px var(--text-color);
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  /* height: 1em; */
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  filter: grayscale(80%);
+  opacity: 0.15;
+  transition: opacity 250ms;
+}
+
+.cube:hover .image {
+  opacity: 0.05;
+}
+
+.details {
+  padding: 1em;
+  display: grid;
+  gap: 0.5em;
+  z-index: 1;
+  text-shadow: 0 0 8px var(--background-color);
+  padding-bottom: 3em;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.description {
+  line-height: 1.4em;
+}
+
+.designer {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  transform: rotate(-4deg);
+  font-weight: bold;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.cube:nth-of-type(2n) .designer {
+  transform: rotate(-2deg);
+}
+
+.cube:nth-of-type(3n + 1) .designer {
+  transform: rotate(-6deg);
+}
+
+.designerLink {
+  display: block;
+  z-index: 2;
+  transition: transform 250ms;
+  pointer-events: initial;
+}
+
+.designerLink:hover {
+  transform: scale(1.2);
+}
+
+.cornerBevel {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  pointer-events: none;
 }

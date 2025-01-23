@@ -34,14 +34,6 @@ export const FAQ: React.FC = () => {
           </a>
         </p>
       </div>
-
-      <div className={styles.item}>
-        <div className={styles.question}>What Cubes will be played?</div>
-        <p className={styles.answer}>
-          Cubes played at the event will be chosen as we get closer to the event
-          but will feature a range largely from local Baltimore Cube designers.
-        </p>
-      </div>
     </div>
   )
 }
