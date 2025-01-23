@@ -75,7 +75,10 @@ export default IndexPage
 export const Head: HeadFC = () => {
   return (
     <>
-      <title>The Salt Box</title>
+      <title>
+        The Salt Box - A Two-Day Magic: The Gathering Cube Event in Baltimore,
+        MD
+      </title>
 
       <meta
         property="og:image"
@@ -84,10 +87,18 @@ export const Head: HeadFC = () => {
       <meta property="og:image-width" content="1200" />
       <meta property="og:image-height" content="630" />
 
+      <meta property="og:title" content="The Salt Box" />
+
       <meta
         name="description"
         content="A Two-Day Magic: The Gathering Cube Event in Baltimore, MD"
       />
+      <meta
+        property="og:description"
+        content="A Two-Day Magic: The Gathering Cube Event in Baltimore, MD"
+      />
+
+      <meta name="twitter:card" content="summary_large_image" />
     </>
   )
 }

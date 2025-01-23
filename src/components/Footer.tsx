@@ -8,7 +8,10 @@ export const Footer: React.FC = () => {
       <p>
         Event Organized by Max Richards
         <br />
-        Website by <a href="https://x.com/ahmattox">Anthony Mattox</a>
+        Website by{' '}
+        <a href="https://bsky.app/profile/anthony.luckypaper.co">
+          Anthony Mattox
+        </a>
       </p>
     </div>
   )
