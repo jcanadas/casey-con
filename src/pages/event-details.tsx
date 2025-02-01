@@ -1,6 +1,7 @@
 import * as styles from './event-details.module.css'
 
 import * as React from 'react'
+import type { HeadFC } from 'gatsby'
 
 import { Layout } from 'src/components/layout/Layout'
 import { Header } from 'src/components/layout/Header'
@@ -87,3 +88,31 @@ const EventDetailsPage: React.FC = () => {
 }
 
 export default EventDetailsPage
+
+export const Head: HeadFC = () => {
+  return (
+    <>
+      <title>Event Details - The Salt Box</title>
+
+      <meta
+        property="og:image"
+        content="http://thesaltbox.fun/the-salt-box-og.png"
+      />
+      <meta property="og:image-width" content="1200" />
+      <meta property="og:image-height" content="630" />
+
+      <meta property="og:title" content="Event Details - The Salt Box" />
+
+      <meta
+        name="description"
+        content="The event will include four draft slots over two days. Players will be organized into pods based on ranked choice votes of their preferred cubes."
+      />
+      <meta
+        property="og:description"
+        content="The event will include four draft slots over two days. Players will be organized into pods based on ranked choice votes of their preferred cubes."
+      />
+
+      <meta name="twitter:card" content="summary_large_image" />
+    </>
+  )
+}
