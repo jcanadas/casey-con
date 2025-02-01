@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 import type { HeadFC, PageProps } from 'gatsby'
 
 import { Layout } from 'src/components/layout/Layout'
-import { Logo } from 'src/components/Logo'
+import { Header } from 'src/components/layout/Header'
 import { Schedule } from 'src/components/Schedule'
 import { Footer } from 'src/components/Footer'
 import { EventDetails } from 'src/components/EventDetails'
@@ -19,19 +19,7 @@ const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = (props) => {
   return (
     <Layout>
       <div className={styles.container}>
-        <div className={styles.header}>
-          <div className={styles.logo}>
-            <Logo />
-          </div>
-
-          <div className={styles.headerDetails}>
-            <div>
-              A Two-Day <em>Magic: The Gathering</em> Cube Event in Baltimore,
-              MD
-            </div>
-            <p>March 8 - 9, 2025</p>
-          </div>
-        </div>
+        <Header />
 
         <div className={styles.mainContent}>
           <EventDetails />

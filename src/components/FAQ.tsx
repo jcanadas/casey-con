@@ -1,10 +1,25 @@
 import * as styles from './FAQ.module.css'
 
 import * as React from 'react'
+import { Link } from 'gatsby-link'
 
 export const FAQ: React.FC = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.item}>
+        <div className={styles.question}>
+          How is the event structured and how are players organized into drafts?
+        </div>
+
+        <p className={styles.answer}>
+          Players will be organized into pods for each draft slot using the Cube
+          tournament software.{' '}
+          <Link to="/event-details/">
+            Read more about how the event is structured.
+          </Link>
+        </p>
+      </div>
+
       <div className={styles.item}>
         <div className={styles.question}>Parking</div>
         <p className={styles.answer}>

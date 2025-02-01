@@ -53,3 +53,7 @@ p a,
 li a {
   text-decoration: underline;
 }
+
+::selection {
+  background: #fbebc8;
+}
