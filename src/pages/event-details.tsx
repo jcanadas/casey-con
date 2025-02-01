@@ -26,9 +26,9 @@ const EventDetailsPage: React.FC = () => {
             the Cubes they&rsquo;re most interested in playing from those
             available. Everyone will be organized into pods of 8, assigning
             players their highest ranked choice as much as possible. There may
-            not be a perfectly divisible number of players each round. Some pods
-            may be slightly smaller. With an odd number some players will
-            receive a &ldquo;bye&rdquo; in some rounds.
+            not be a perfectly divisible number of players each round, so some
+            pods may be slightly smaller. With an odd number, some players will
+            receive a &ldquo;bye&rdquo; in some rounds after drafting.
           </p>
 
           <p>
@@ -51,7 +51,7 @@ const EventDetailsPage: React.FC = () => {
 
           <p>
             Cube rankings and match pairings are all organized through{' '}
-            <a href="https://hedron.network">Hedron Network</a>. A site built to
+            <a href="https://hedron.network">Hedron Network</a>, a site built to
             facilitate Cube events. Players will also use it to submit a photo
             of all the cards they drafted at the beginning and end of each
             draft. A judge will confirm pools and photos when you return your
