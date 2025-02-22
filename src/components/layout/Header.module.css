@@ -25,6 +25,7 @@
   font-size: 1.5em;
   display: grid;
   gap: 1em;
+  margin-bottom: 0.5em;
 }
 
 .headerDetails em {
