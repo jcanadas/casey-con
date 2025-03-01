@@ -16,8 +16,15 @@
 
 .logo {
   display: block;
-  max-width: 30em;
+  max-width: 24em;
   transform: rotate(-4deg);
+  justify-self: center;
+}
+
+@media screen and (max-width: 649px) {
+  .logo {
+    transform: translate(-3%, 0) rotate(-4deg);
+  }
 }
 
 .headerDetails {

@@ -8,7 +8,7 @@ export const FAQ: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.question}>
-          How is the event structured and how are players organized into drafts?
+          Event Structure and Draft Pod Organization
         </div>
 
         <p className={styles.answer}>
@@ -17,6 +17,18 @@ export const FAQ: React.FC = () => {
           <Link to="/event-details/">
             Read more about how the event is structured.
           </Link>
+        </p>
+      </div>
+
+      <div className={styles.item}>
+        <div className={styles.question}>Local Amenities</div>
+
+        <p className={styles.answer}>
+          Visiting from out of town? Check out{' '}
+          <a href="https://docs.google.com/document/d/18G72Y8J7KYxVT2_rzRQlG_LNvjAse6FCONMW6paaEAY/edit?tab=t.0">
+            Andy&rsquo;s guide to local food and more
+          </a>
+          .
         </p>
       </div>
 
