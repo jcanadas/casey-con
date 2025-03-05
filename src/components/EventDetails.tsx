@@ -4,13 +4,22 @@ import * as React from 'react'
 
 import * as Typography from 'src/components/general/Typography'
 
-const soldOut = true
+const state: 'ticket-sales' | 'sold-out' | 'in-progress' = 'in-progress'
 
 export const EventDetails: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.ticketInfo}>
-        {soldOut ? (
+        {state === 'in-progress' ? (
+          <div>
+            <a
+              href="https://saltbox.hedron.network/"
+              className={styles.largeButton}
+            >
+              Hedron Network - Register For Drafts
+            </a>
+          </div>
+        ) : state === 'sold-out' ? (
           <div className={styles.soldOut}>
             <div className={styles.soldOutHeading}>Tickets Sold Out</div>
 
