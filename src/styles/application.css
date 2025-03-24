@@ -57,3 +57,24 @@ li a {
 ::selection {
   background: #fbebc8;
 }
+
+button {
+  appearance: none;
+  color: inherit;
+  border: none;
+}
+
+button:enabled {
+  cursor: pointer;
+}
+
+input {
+  font-size: inherit;
+  color: inherit;
+  text-align: inherit;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}

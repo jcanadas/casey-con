@@ -1,0 +1,101 @@
+.container {
+  height: 100vh;
+  --background-color: #ececec;
+  --secondary-background-color: #ffffff;
+  --text-color: #000000;
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  padding: 20px;
+
+  display: grid;
+  gap: 2em;
+  grid-template-rows: auto 1fr;
+}
+
+.container.dark {
+  --background-color: #000000;
+  --secondary-background-color: #303030;
+  --text-color: #ffffff;
+}
+
+.controls {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.controlButton {
+  background-color: var(--secondary-background-color);
+  padding: 8px 14px;
+  border-radius: 10px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  background-color: var(--text-color);
+  cursor: pointer;
+}
+
+.checkbox:checked {
+}
+
+.timers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+
+  justify-content: center;
+
+  align-content: center;
+}
+
+.timer {
+  text-align: center;
+  padding: 1em;
+  display: grid;
+  justify-content: center;
+  background-color: var(--secondary-background-color);
+  border-radius: 10px;
+  gap: 1em;
+}
+
+.timer.urgent {
+  color: #ec1e11;
+}
+
+.timerName {
+}
+
+.timerNameInput {
+  font-size: 24px;
+}
+
+.timerCountDown {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.timerEndTime {
+  display: grid;
+  grid-template-columns: auto 5em;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+}
+
+.timerEndTimeLabel {
+}
+
+.timerEndTimeInput {
+  background-color: inherit;
+  text-align: left;
+}
