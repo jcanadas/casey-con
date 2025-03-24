@@ -4,13 +4,15 @@ import * as React from 'react'
 
 import * as Typography from 'src/components/general/Typography'
 
-const state: 'ticket-sales' | 'sold-out' | 'in-progress' = 'in-progress'
+type EventState = 'ticket-sales' | 'sold-out' | 'in-progress' | 'concluded'
+
+const eventState: EventState = 'concluded'
 
 export const EventDetails: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.ticketInfo}>
-        {state === 'in-progress' ? (
+        {eventState === 'concluded' ? null : eventState === 'in-progress' ? (
           <div>
             <a
               href="https://saltbox.hedron.network/"
@@ -19,7 +21,7 @@ export const EventDetails: React.FC = () => {
               Hedron Network - Register For Drafts
             </a>
           </div>
-        ) : state === 'sold-out' ? (
+        ) : eventState === 'sold-out' ? (
           <div className={styles.soldOut}>
             <div className={styles.soldOutHeading}>Tickets Sold Out</div>
 
@@ -36,7 +38,7 @@ export const EventDetails: React.FC = () => {
               Join Waitlist
             </a>
           </div>
-        ) : (
+        ) : eventState === 'ticket-sales' ? (
           <>
             <a
               href="https://www.eventbrite.com/e/the-salt-box-tickets-1057472070429?aff=oddtdtcreator"
@@ -46,7 +48,7 @@ export const EventDetails: React.FC = () => {
             </a>
             <p className={styles.ticketNote}>72 Total Seats Available</p>
           </>
-        )}
+        ) : null}
       </div>
 
       <a href="https://discord.gg/eQgEnpQgeb" className={styles.largeButton}>
