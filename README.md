@@ -1,4 +1,4 @@
-# Packone Pickone
+# Pack One Pick One
 
 Informational website for a Magic: The Gathering Cube event in Baltimore.
 
