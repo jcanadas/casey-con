@@ -26,3 +26,5 @@ jobs:
           password: ${{ secrets.DREAMHOST_PASSWORD }}
           local-dir: public/
           server-dir: ${{ secrets.DREAMHOST_PATH }}
+          protocol: sftp
+          port: 22
