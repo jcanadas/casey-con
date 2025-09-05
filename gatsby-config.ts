@@ -3,7 +3,7 @@ import type { GatsbyConfig } from 'gatsby'
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Packone Pickone`,
-    siteUrl: `http://packone-pickone.com`
+    siteUrl: `http://packonepickone.com`
   },
   graphqlTypegen: true,
   plugins: [

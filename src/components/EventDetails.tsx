@@ -51,7 +51,7 @@ export const EventDetails: React.FC = () => {
         ) : null}
       </div>
 
-      <a href="https://discord.gg/eQgEnpQgeb" className={styles.largeButton}>
+      <a href="https://discord.com/invite/mGbrWenMKg" className={styles.largeButton}>
         Join the Discord Server
       </a>
 
@@ -72,11 +72,13 @@ export const EventDetails: React.FC = () => {
       </div>
 
       <p>
-        The event is located near downtown in the Mt Vernon neighborhood, close
-        to transportation and hotels. It&rsquo;s walking distance from the{' '}
-        <a href="https://g.co/kgs/4Hj6bJ8">Penn Station train station</a> (3/4
-        mi) and <a href="https://g.co/kgs/LBrJZST">LightRail Station</a> (1/4
-        mi) which goes directly to BWI airport.
+        Two days of Magic: The Gathering Cube drafts, with proceeds going to local mutual aid funds!
+      </p>
+      <p>
+        $65 gets you entry into four Cube Drafts, two on Saturday and two on Sunday, hosted at Thymele Arts in Hollywood. There'll be snacks and prize pins and a lot of fun games. Come play some dang magic!
+      </p>
+      <p>
+        Register for a ticket here: https://bit.ly/P1P1SignUp
       </p>
     </div>
   )

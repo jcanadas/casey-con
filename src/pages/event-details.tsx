@@ -78,7 +78,7 @@ const EventDetailsPage: React.FC = () => {
 
           <p>
             If you still have questions,{' '}
-            <a href="https://discord.gg/eQgEnpQgeb">reach out in the discord</a>
+            <a href="https://discord.com/invite/mGbrWenMKg">reach out in the discord</a>
             !
           </p>
         </div>
