@@ -2,7 +2,7 @@
 
 Informational website for a Magic: The Gathering Cube event in Baltimore.
 
-http://thesaltbox.fun/
+http://packone-pickone.com/
 
 ## Prerequisites
 

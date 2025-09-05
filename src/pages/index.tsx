@@ -64,26 +64,27 @@ export const Head: HeadFC = () => {
   return (
     <>
       <title>
-        The Salt Box - A Two-Day Magic: The Gathering Cube Event in Baltimore,
-        MD
+      Pack One Pick One
+A Magic: The Gathering Cube Event in Los Angeles, CA
+January 17-18, 2026
       </title>
 
       <meta
         property="og:image"
-        content="http://thesaltbox.fun/the-salt-box-og.png"
+        content="http://packone-pickone.com/pack-one-pick-one-og.png"
       />
       <meta property="og:image-width" content="1200" />
       <meta property="og:image-height" content="630" />
 
-      <meta property="og:title" content="The Salt Box" />
+      <meta property="og:title" content="Pack One Pick One" />
 
       <meta
         name="description"
-        content="A Two-Day Magic: The Gathering Cube Event in Baltimore, MD"
+        content="A Magic: The Gathering Cube Event in Los Angeles, CA"
       />
       <meta
         property="og:description"
-        content="A Two-Day Magic: The Gathering Cube Event in Baltimore, MD"
+        content="A Magic: The Gathering Cube Event in Los Angeles, CA"
       />
 
       <meta name="twitter:card" content="summary_large_image" />

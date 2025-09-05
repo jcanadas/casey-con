@@ -2,8 +2,8 @@ import type { GatsbyConfig } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `The Salt Box`,
-    siteUrl: `http://thesaltbox.fun`
+    title: `Packone Pickone`,
+    siteUrl: `http://packone-pickone.com`
   },
   graphqlTypegen: true,
   plugins: [

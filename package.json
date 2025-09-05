@@ -1,8 +1,8 @@
 {
-  "name": "the-salt-box",
+  "name": "packone-pickone",
   "version": "1.0.0",
   "private": true,
-  "description": "the-salt-box",
+  "description": "packone-pickone",
   "author": "Anthony Mattox",
   "keywords": [
     "gatsby"
@@ -16,7 +16,7 @@
     "types:check": "tsc --noEmit",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,md}\"",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,css,md}\"",
-    "deploy": "gatsby build && aws s3 sync ./public s3://thesaltbox.fun --delete"
+    "deploy": "gatsby build && aws s3 sync ./public s3://packone-pickone.con --delete"
   },
   "dependencies": {
     "@mdx-js/react": "^3.1.0",

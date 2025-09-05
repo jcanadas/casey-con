@@ -15,7 +15,7 @@ export const EventDetails: React.FC = () => {
         {eventState === 'concluded' ? null : eventState === 'in-progress' ? (
           <div>
             <a
-              href="https://saltbox.hedron.network/"
+              href="https://bit.ly/P1P1SignUp"
               className={styles.largeButton}
             >
               Hedron Network - Register For Drafts
