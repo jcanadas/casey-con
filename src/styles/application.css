@@ -4,11 +4,10 @@ html {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
 
-  --text-color: #3e360b;
-  --secondary-text-color: #886b2a;
-  --background-color: #fbc54d;
-  --secondary-background-color: #fbd684;
-
+  --text-color: #263a29;                   /* Deep green-gray */
+  --secondary-text-color: #388e3c;         /* Rich green, better contrast */
+  --background-color: #f7fee7;             /* Light lime background */
+  --secondary-background-color: #d9f99d;   /* Lighter lime */
   --primary-border: solid 2px var(--text-color);
 }
 
@@ -38,11 +37,12 @@ html {
 
 body {
   background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--secondary-text-color);
 }
 
 p {
@@ -52,16 +52,20 @@ p {
 p a,
 li a {
   text-decoration: underline;
+  color: var(--secondary-text-color);
 }
 
 ::selection {
-  background: #fbebc8;
+  background: #bef264; /* Bright lime highlight */
 }
 
 button {
   appearance: none;
-  color: inherit;
+  color: #263a29;
+  background-color: var(--secondary-text-color);
   border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
 }
 
 button:enabled {
