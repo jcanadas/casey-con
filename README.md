@@ -19,7 +19,7 @@ In the project directory, install dependencies with:
 ```sh
 $ yarn install
 ```
- 
+  
 See the [detailed setup instructions](documentation/setup.md) for more info and
 troubleshooting.
 
