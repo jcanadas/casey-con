@@ -1,4 +1,4 @@
-# The Salt Box
+# Packone Pickone
 
 Informational website for a Magic: The Gathering Cube event in Baltimore.
 
