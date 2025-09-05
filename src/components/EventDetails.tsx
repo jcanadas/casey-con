@@ -61,12 +61,12 @@ export const EventDetails: React.FC = () => {
 
       <div className={styles.location}>
         <p>
-          <a href="https://g.co/kgs/19D86dZ">
-            Emmanuel Episcopal Church
+          <a href="https://www.thymelearts.com/">
+            Thymele Arts
             <br />
-            811 Cathedral Street
+            5481 Santa Monica Blvd.
             <br />
-            Baltimore, MD
+            East Hollywood, CA 90029
           </a>
         </p>
       </div>

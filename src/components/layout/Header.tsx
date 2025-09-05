@@ -14,9 +14,9 @@ export const Header: React.FC = () => {
 
       <div className={styles.headerDetails}>
         <div>
-          A Two-Day <em>Magic: The Gathering</em> Cube Event in Baltimore, MD
+          A Two-Day <em>Magic: The Gathering</em> Cube Event in Los Angeles, CA
         </div>
-        <p>March 8 - 9, 2025</p>
+        <p>January 17-18, 2026</p>
       </div>
     </div>
   )

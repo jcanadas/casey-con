@@ -5,7 +5,7 @@ import * as React from 'react'
 export const Logo: React.FC = () => {
   return (
     <img
-      src="/packone-pickone-logo.png"
+      src="/pack-one-pick-one-logo.png"
       width={192}
       className={styles.image}
       alt="Pack One Pick One"
