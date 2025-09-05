@@ -26,13 +26,13 @@ export const EventDetails: React.FC = () => {
             <div className={styles.soldOutHeading}>Tickets Sold Out</div>
 
             <p>
-              <a href="https://www.eventbrite.com/e/the-salt-box-tickets-1057472070429?aff=oddtdtcreator">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScbph3-7uA_f35SbU7iGM_M4ARQGUCWF0SEUVsPT9G4sJFTyg/viewform">
                 View Details on EventBrite
               </a>
             </p>
 
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScsug9tBx0yQudhn-Cq4ToiJXVb3iecCV0RfiGz3uuvxZKcXg/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScbph3-7uA_f35SbU7iGM_M4ARQGUCWF0SEUVsPT9G4sJFTyg/viewform"
               className={styles.largeButton}
             >
               Join Waitlist
@@ -41,7 +41,7 @@ export const EventDetails: React.FC = () => {
         ) : eventState === 'ticket-sales' ? (
           <>
             <a
-              href="https://www.eventbrite.com/e/the-salt-box-tickets-1057472070429?aff=oddtdtcreator"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScbph3-7uA_f35SbU7iGM_M4ARQGUCWF0SEUVsPT9G4sJFTyg/viewform"
               className={styles.buyButton}
             >
               Buy Tickets - $45
@@ -78,7 +78,7 @@ export const EventDetails: React.FC = () => {
         $65 gets you entry into four Cube Drafts, two on Saturday and two on Sunday, hosted at Thymele Arts in Hollywood. There'll be snacks and prize pins and a lot of fun games. Come play some dang magic!
       </p>
       <p>
-        Register for a ticket here: https://bit.ly/P1P1SignUp
+        Register for a ticket here: <a href='https://bit.ly/P1P1SignUp'>https://bit.ly/P1P1SignUp</a> 
       </p>
     </div>
   )

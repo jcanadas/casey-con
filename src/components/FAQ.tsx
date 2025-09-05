@@ -53,6 +53,7 @@ export const FAQ: React.FC = () => {
 
       <p className={styles.answer}>
         A: Hedron Network, which is an incredible community made tool, will let you rank your cubes in order of preference for each round. Hedron Network then creates pods based on player preference.
+        <br />
         <a href="http://hedron.network/">Hedron Network</a>
       </p>
       <p className={styles.answer}>

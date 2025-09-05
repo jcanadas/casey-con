@@ -16,65 +16,43 @@ const EventDetailsPage: React.FC = () => {
           <h1 className={styles.heading}>Event Structure</h1>
 
           <p>
-            The Salt Box will follow the emerging format of{' '}
-            <a href="https://luckypaper.co/events/">mid-sized cube events</a>.
-            If this is your first, here&rsquo;s what to expect.
+            Q: What's the Event Structure?
           </p>
 
           <p>
-            The event includes four draft slots. In each slot, players will rank
-            the Cubes they&rsquo;re most interested in playing from those
-            available. Everyone will be organized into pods of 8, assigning
-            players their highest ranked choice as much as possible. There may
-            not be a perfectly divisible number of players each round, so some
-            pods may be slightly smaller. With an odd number, some players will
-            receive a &ldquo;bye&rdquo; in some rounds after drafting.
+            A: Two drafts on Saturday, with open cubing from 7PM until late! Then, two cube drafts on Sunday. For the second draft on Sunday, one pod will be comprised of the top 8 players at the event, and the winner of that pod will be the Pack One Pick One Champion!
           </p>
 
           <p>
-            During each draft, each pod will receive the Cube, collaboratively{' '}
-            <a href="https://luckypaper.co/articles/how-to-quickly-shuffle-your-mtg-cube/">
-              shuffle
-            </a>{' '}
-            and create packs. Then they&rsquo;ll draft, build decks, and play
-            three best-of-three matches.
+            Q: What Cubes Will be Available?
+          </p>
+
+
+
+          <p>
+            A: We're going to open up Cube submissions to the larger community shortly, but you can expect Pauper, Vintage, Commander cubes and everything in between. The list of cubes below will be updated as we get more submissions.
           </p>
 
           <p>
-            Judges and staff will help coordinate moving each pod through setup,
-            drafting, and rounds of gameplay when the whole pod is ready to
-            continue. Judges will also be able to help with rules questions or
-            to fix game states if something goes awry. Your fellow pod mates
-            will include some veteran cubers who can help with logistical
-            questions too.
+            Q: Which Cubes Will I Draft?
           </p>
 
           <p>
-            Cube rankings and match pairings are all organized through{' '}
-            <a href="https://hedron.network">Hedron Network</a>, a site built to
-            facilitate Cube events. Players will also use it to submit a photo
-            of all the cards they drafted at the beginning and end of each
-            draft. A judge will confirm pools and photos when you return your
-            cards to them. Players will also report match results in Hedron
-            Network to award points and determine the next round&rsquo;s
-            pairings.
+            A: Hedron Network, which is an incredible community made tool, will let you rank your cubes in order of preference for each round. Hedron Network then creates pods based on player preference.
+            For more information check out:
+            http://hedron.network/
           </p>
 
           <p>
-            Points will be given for each match win. In the sunday afternoon
-            draft slot, the 8 players with the most points will face off in one
-            pod the winner of which will be crowned the Salt Box Champion. The
-            rest of the pods in this slot will be organized by ranked cube
-            choice as normal.
+            Q: I Bought a Ticket But Can't Attend, What Happens?
           </p>
 
           <p>
-            You don&rsquo;t need to participate in every draft slot. Pods will
-            be generated just before each draft, so, while you&rsquo;ll be able
-            to rank your cube preferences in advance of the event, you can
-            change your mind or opt out of any slot up to a few minutes before
-            each draft begins.
+            A: I can give you a refund up to two weeks up until January 3rd, 2026. After this, reach out to me (CaseyMalone) on our Discord, I might be able to connect you with a community member on the waitlist who can take your ticket.
           </p>
+
+
+
 
           <p>
             If you still have questions,{' '}
@@ -96,7 +74,7 @@ export const Head: HeadFC = () => {
 
       <meta
         property="og:image"
-        content="http://thesaltbox.fun/the-salt-box-og.png"
+        content="http://packonepickone.com/pack-one-pick-one-og.png"
       />
       <meta property="og:image-width" content="1200" />
       <meta property="og:image-height" content="630" />

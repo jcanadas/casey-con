@@ -70,7 +70,7 @@ export const Head: HeadFC = () => {
 
       <meta
         property="og:image"
-        content="http://packonepickone.com/packone-pickone-og.png"
+        content="http://packonepickone.com/pack-one-pick-one-og.png"
       />
       <meta property="og:image-width" content="1200" />
       <meta property="og:image-height" content="630" />

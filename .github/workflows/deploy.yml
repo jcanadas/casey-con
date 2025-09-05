@@ -1,0 +1,28 @@
+name: Deploy Gatsby to DreamHost
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build Gatsby site
+        run: yarn build
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.DREAMHOST_HOST }}
+          username: ${{ secrets.DREAMHOST_USER }}
+          password: ${{ secrets.DREAMHOST_PASSWORD }}
+          local-dir: public
+          server-dir: ${{ secrets.DREAMHOST_PATH }}
