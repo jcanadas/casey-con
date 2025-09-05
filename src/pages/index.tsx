@@ -64,14 +64,13 @@ export const Head: HeadFC = () => {
   return (
     <>
       <title>
-      Pack One Pick One
-A Magic: The Gathering Cube Event in Los Angeles, CA
-January 17-18, 2026
+        Pack One Pick One - A Two-Day Magic: The Gathering Cube Event in Los Angeles,
+        CA
       </title>
 
       <meta
         property="og:image"
-        content="http://packone-pickone.com/pack-one-pick-one-og.png"
+        content="http://packone-pickone.com/packone-pickone-og.png"
       />
       <meta property="og:image-width" content="1200" />
       <meta property="og:image-height" content="630" />
@@ -80,11 +79,11 @@ January 17-18, 2026
 
       <meta
         name="description"
-        content="A Magic: The Gathering Cube Event in Los Angeles, CA"
+        content="A Two-Day Magic: The Gathering Cube Event in Los Angeles, CA"
       />
       <meta
         property="og:description"
-        content="A Magic: The Gathering Cube Event in Los Angeles, CA"
+        content="A Two-Day Magic: The Gathering Cube Event in Los Angeles, CA"
       />
 
       <meta name="twitter:card" content="summary_large_image" />
