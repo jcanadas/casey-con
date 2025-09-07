@@ -8,6 +8,8 @@ export const Footer: React.FC = () => {
       <p>
         Event Organized by Casey Malone
         <br />
+		Logo by Kevin Budnik, special thanks to Joe Canadas and Ben Pack for website help.
+		<br />
         Website forked from{' '}
         <a href="https://bsky.app/profile/anthony.luckypaper.co">
           Anthony Mattox
