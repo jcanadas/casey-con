@@ -14,7 +14,7 @@ const EventDetailsPage: React.FC = () => {
 
         <div className={styles.content}>
           <h1 className={styles.heading}>Event Structure</h1>
-test
+test3
           <p>
             Q: What's the Event Structure?
           </p>
