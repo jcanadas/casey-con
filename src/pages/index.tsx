@@ -33,8 +33,6 @@ const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = (props) => {
           <FAQ />
         </div>
 
-        {/* <LocalAmenities /> */}
-
         <CubeList cubes={cubes} />
 
         <Footer />

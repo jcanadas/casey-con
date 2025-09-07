@@ -50,7 +50,15 @@ export const EventDetails: React.FC = () => {
           </>
         ) : null}
       </div>
-
+      <p><br />
+        Two days of Magic: The Gathering Cube drafts, with proceeds going to local mutual aid funds!
+      </p>
+      <p>
+        $65 gets you entry into four Cube Drafts, two on Saturday and two on Sunday, hosted at Thymele Arts in Hollywood. There'll be snacks and prize pins and a lot of fun games. Come play some dang magic!
+      </p>
+	  <a href="https://bit.ly/P1P1SignUp" className={styles.largeButton}>
+        Register For The Event
+      </a>
       <a href="https://discord.com/invite/mGbrWenMKg" className={styles.largeButton}>
         Join the Discord Server
       </a>
@@ -69,17 +77,17 @@ export const EventDetails: React.FC = () => {
             East Hollywood, CA 90029
           </a>
         </p>
+
+		<div className={styles.item}>
+
+        <p className={styles.answer}>
+          <br />Off-site parking is available for $10/Day, with access to bus and transit stops nearby.
+		  <br />Street parking is available but sparse.
+		  <br /><br />The venue is also accessible from the B-Line/Western and Vermont/Santa Monica metro stops, and is along the 207 and 4 bus lines.
+        </p>
       </div>
 
-      <p>
-        Two days of Magic: The Gathering Cube drafts, with proceeds going to local mutual aid funds!
-      </p>
-      <p>
-        $65 gets you entry into four Cube Drafts, two on Saturday and two on Sunday, hosted at Thymele Arts in Hollywood. There'll be snacks and prize pins and a lot of fun games. Come play some dang magic!
-      </p>
-      <p>
-        Register for a ticket here: <a href='https://bit.ly/P1P1SignUp'>https://bit.ly/P1P1SignUp</a> 
-      </p>
+      </div>
     </div>
   )
 }

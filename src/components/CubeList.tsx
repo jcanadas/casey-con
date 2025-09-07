@@ -23,8 +23,8 @@ export const CubeList: React.FC<Props> = (props) => {
 
   return (
     <div className={styles.container}>
-      <Typography.SecondaryHeading>The Cubes</Typography.SecondaryHeading>
-
+      <Typography.PrimaryHeading>The Cubes</Typography.PrimaryHeading>
+		Check out the cubes we currently have included in the event! More cubes announced as we get closer to the event!
       <div className={styles.cubes}>
         {cubes.map((cube) => (
           <div key={cube.name} className={styles.cube}>
