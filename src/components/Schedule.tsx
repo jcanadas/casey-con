@@ -13,7 +13,7 @@ export const Schedule: React.FC = () => {
         <h3 className={styles.dayHeading}>Saturday</h3>
         <div className={styles.item}>
           <div className={styles.itemLabel}>Check-In</div>
-          <div className={styles.itemTime}>9AM - 1PM</div>
+          <div className={styles.itemTime}>9AM - 10AM</div>
         </div>
         <div className={styles.item}>
           <div className={styles.itemLabel}>Draft #1</div>
