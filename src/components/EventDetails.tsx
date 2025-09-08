@@ -51,16 +51,19 @@ export const EventDetails: React.FC = () => {
         ) : null}
       </div>
       <p><br />
-        Two days of Magic: The Gathering Cube drafts, with proceeds going to local mutual aid funds!
+        Two days of Magic: The Gathering Cube drafts here in Hollywood!
       </p>
       <p>
         $65 gets you entry into four Cube Drafts, two on Saturday and two on Sunday, hosted at Thymele Arts in Hollywood. There'll be snacks and prize pins and a lot of fun games. Come play some dang magic!
       </p>
 	  <a href="https://bit.ly/P1P1SignUp" className={styles.largeButton}>
-        Register For The Event
+        Register For The Event!
+      </a>
+	  <a href="https://bit.ly/SubmitACube" className={styles.largeButton}>
+        Submit Your Cube!
       </a>
       <a href="https://discord.com/invite/mGbrWenMKg" className={styles.largeButton}>
-        Join the Discord Server
+        Join the Discord Server!
       </a>
 
       <hr className={styles.rule} />
