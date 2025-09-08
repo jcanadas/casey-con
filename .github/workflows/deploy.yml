@@ -15,6 +15,9 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Clean Gatsby cache
+        run: rm -rf .cache public
+
       - name: Build Gatsby site
         run: yarn build
 
@@ -28,3 +31,4 @@ jobs:
           server-dir: ${{ secrets.DREAMHOST_PATH }}
           protocol: ftp
           port: 21
+          dangerous-clean-slate: true
