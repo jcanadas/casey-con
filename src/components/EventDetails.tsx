@@ -54,7 +54,7 @@ export const EventDetails: React.FC = () => {
         Two days of Magic: The Gathering Cube drafts here in Hollywood!
       </p>
       <p>
-        $65 gets you entry into four Cube Drafts, two on Saturday and two on Sunday, hosted at Thymele Arts in Hollywood. There'll be snacks and prize pins and a lot of fun games. Come play some dang magic!
+        $65 gets you entry into four Cube Drafts, two on Saturday and two on Sunday, hosted at Thymele Arts in Hollywood. There'll be snacks, prize pins, great games, and any proceeds from the event will be donated to Los Angeles mutual aid funds. Come play some dang Magic! 
       </p>
 	  <a href="https://bit.ly/P1P1SignUp" className={styles.largeButton}>
         Register For The Event!

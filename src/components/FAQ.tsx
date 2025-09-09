@@ -20,7 +20,7 @@ export const FAQ: React.FC = () => {
         What Cubes Will be Available?
       </p>
       <p className={styles.answer}>
-        We're going to open up Cube submissions to the larger community shortly, but you can expect Pauper, Vintage, Commander cubes and everything in between. The list of cubes below will be updated as we get more submissions.
+        We're accepting cube submissions from the larger community! We're still finding out what people have to offer, but you can expect Pauper, Vintage, Commander cubes and everything in between. The list of cubes below will be updated as we get more submissions. In the mean time, fill out the form linked at the top of the page to add your cube to the event!
       </p>
       <p className={styles.question}>
         Which Cubes Will I Draft?
@@ -28,7 +28,6 @@ export const FAQ: React.FC = () => {
 
       <p className={styles.answer}>
         Hedron Network, which is an incredible community made tool, will let you rank your cubes in order of preference for each round. Hedron Network then creates pods based on player preference.
-        <br />
         For more information, check it out here: <a href="http://hedron.network/">Hedron Network</a>
       </p>
       <p className={styles.question}>
