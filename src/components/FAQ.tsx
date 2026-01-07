@@ -14,7 +14,7 @@ export const FAQ: React.FC = () => {
           What's the Event Structure?
         </p>
         <p className={styles.answer}>
-          Two drafts on Saturday, with open cubing from 7PM until late! Then, two cube drafts on Sunday. For the second draft on Sunday, one pod will be comprised of the top 8 players at the event, and the winner of that pod will be the Pack One Pick One Champion!
+          Two drafts on Saturday, with open cubing from 7PM until late! Then, two cube drafts on Sunday!
       </p>
       <p className={styles.question}>
         What Cubes Will be Available?

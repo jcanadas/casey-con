@@ -59,8 +59,8 @@ export const EventDetails: React.FC = () => {
 	  <a href="https://bit.ly/P1P1SignUp" className={styles.largeButton}>
         Register For The Event!
       </a>
-	  <a href="https://bit.ly/SubmitACube" className={styles.largeButton}>
-        Submit Your Cube!
+	  <a href="https://p1p1.hedron.network/cubes/" className={styles.largeButton}>
+        Hedron Network Page
       </a>
       <a href="https://discord.com/invite/mGbrWenMKg" className={styles.largeButton}>
         Join the Discord Server!

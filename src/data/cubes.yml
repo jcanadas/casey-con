@@ -15,6 +15,77 @@
     The original Pauper Cube, from thepaupercube.com. Formerly maintained
     by Adam Styborski and now curated by a committee and the community 
     surrounding it. Good clean Magic.
-- name: More Cubes Coming Soon!
+- name: The Lord of the Rings Expanded Cube
+  url: https://cubecobra.com/cube/overview/LOTRE
+  designer: By magesandmentors
+  designerURL: https://cubecobra.com/user/view/60f4720317c8b8103f315ad8
+  imageURL: https://cards.scryfall.io/art_crop/front/1/2/126ea71a-9a64-4d1e-a8ca-1efce3b8346f.jpg?1686972720
   description:
-    Check back closer to the event and stay tune to our Discord to learn about more cubes coming to the event...
+    A love letter to the Lord of the Rings draft format.
+- name: Scubby's Vintage Cube
+  url: https://cubecobra.com/cube/overview/447edfbc-3427-45fe-9724-82d942b6596e
+  designer: By SummyTummies
+  designerURL: https://cubecobra.com/user/view/5fc1db3d8d49862caf849ffd
+  imageURL: https://cards.scryfall.io/art_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1665343333
+  description:
+    A new take on a classic Vintage cube experience!
+- name: Jeskai Cube
+  url: https://cubecobra.com/c/b779892d-2ee4-41b9-ba14-b359ee7fff54
+  designer: By djrfenton
+  designerURL: https://cubecobra.com/user/view/562c9855-4837-46bf-8c59-e6ac207b1a8b
+  imageURL: https://cards.scryfall.io/art_crop/front/f/e/fe51805f-a2e3-4c29-a6a7-ca99537d13a8.jpg?1742337080
+  description:
+    A cube around Jeskai. The best three color wedge.
+- name: A Brooding Saga
+  url: https://cubecobra.com/cube/overview/SagasCube
+  designer: By OneArseneWenger
+  designerURL: https://cubecobra.com/user/view/5ec3713c6c26474a6cda986e
+  imageURL: https://cards.scryfall.io/art_crop/front/7/f/7fd2fe13-bbc0-42b7-bc42-3b51910ce118.jpg?1562444251
+  description:
+    An exploration of the power of Sagas!
+- name: Philling the Yard
+  url: https://cubecobra.com/cube/overview/phillingtheyard
+  designer: By philjack
+  designerURL: https://cubecobra.com/user/view/29d73531-437f-442f-a00d-4eeed357127f
+  imageURL: https://cards.scryfall.io/art_crop/front/e/2/e2b054a9-7565-4fdd-b6a5-2786c5bb5b7e.jpg?1717011983
+  description:
+    Come play in the dirt with this non powered cube where every color
+    gets to interact with the graveyard in a unique way. 
+- name: West Coast Tiny Leaders
+  url: https://cubecobra.com/cube/overview/phillingtheyard
+  designer: By CaseyMalone
+  designerURL: https://cubecobra.com/user/view/60021afaac296110359bc2d2
+  imageURL: https://cards.scryfall.io/art_crop/front/f/b/fb169fa2-c92e-45f7-89a2-0ca0e3910a1c.jpg?1739804220
+  description:
+    A 1v1 Commander Cube built around cards that cost 3 Mana Value or less!
+- name: bakkenal peasant
+  url: https://cubecobra.com/cube/overview/bakkenal-peasant
+  designer: By bakkenal
+  designerURL: https://cubecobra.com/user/view/6af965cb-7469-4da4-8610-b6aad771db37
+  imageURL: https://cards.scryfall.io/art_crop/front/0/2/0291c909-bb87-47cb-9b06-5e409e654f15.jpg?1624739493
+  description:
+    A brewer’s cube about building machines!
+- name: Alt Win Cube
+  url: https://cubecobra.com/cube/overview/c0bd608c-55c7-4c3f-9f90-d6d2471b7d0d
+  designer: By JoeyCans
+  designerURL: https://cubecobra.com/user/view/eb20f86e-28c3-4286-a67f-a18a175a0cda
+  imageURL: https://cards.scryfall.io/art_crop/front/d/d/dd8ad3aa-3225-45ae-8343-5991f5b52269.jpg?1745319962
+  description:
+    A mid-power cube that encourages alternative win conditions while 
+    still provides good basic games play.
+- name: Blue Prince: Duskmourn Extended
+  url: https://cubecobra.com/cube/overview/c8b193fa-4cd6-4d5f-bc83-99d772e0ac40
+  designer: By OneArseneWenger
+  designerURL: https://cubecobra.com/user/view/5ec3713c6c26474a6cda986e
+  imageURL: https://cards.scryfall.io/art_crop/front/7/7/7740ff55-67bb-409e-90f7-2c2c8b8c770a.jpg?1726286296
+  description:
+    You find yourself on Duskmourn. The house speaks to you.
+- name: Defender of the Polyverse
+  url: https://cubecobra.com/cube/overview/polyversal
+  designer: By caseydavenport
+  designerURL: https://cubecobra.com/user/view/633ccaf5d002cd2761ed4df1
+  imageURL: https://cards.scryfall.io/art_crop/front/7/7/7740ff55-67bb-409e-90f7-2c2c8b8c770a.jpg?1726286296
+  description:
+    A "good clean magic" experience across the major archetypes of 
+    aggro, midrange, and control, featuring memorable, strategic, 
+    and varied games.
