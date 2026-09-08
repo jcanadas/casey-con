@@ -65,14 +65,6 @@
   imageURL: https://cards.scryfall.io/art_crop/front/0/2/0291c909-bb87-47cb-9b06-5e409e654f15.jpg?1624739493
   description:
     A brewer’s cube about building machines!
-- name: Alt Win Cube
-  url: https://cubecobra.com/cube/overview/c0bd608c-55c7-4c3f-9f90-d6d2471b7d0d
-  designer: By JoeyCans
-  designerURL: https://cubecobra.com/user/view/eb20f86e-28c3-4286-a67f-a18a175a0cda
-  imageURL: https://cards.scryfall.io/art_crop/front/d/d/dd8ad3aa-3225-45ae-8343-5991f5b52269.jpg?1745319962
-  description:
-    A mid-power cube that encourages alternative win conditions while 
-    still provides good basic games play.
 - name: Blue Prince: Duskmourn Extended
   url: https://cubecobra.com/cube/overview/c8b193fa-4cd6-4d5f-bc83-99d772e0ac40
   designer: By OneArseneWenger
