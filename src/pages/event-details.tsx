@@ -16,7 +16,7 @@ const EventDetailsPage: React.FC = () => {
           <h1 className={styles.heading}>Event Structure</h1>
 
           <p>
-            Q: What's the Event Structure?
+            Q: What's the Event Structure???
           </p>
 
           <p>
