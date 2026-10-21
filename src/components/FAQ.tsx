@@ -10,12 +10,6 @@ export const FAQ: React.FC = () => {
       <div className={styles.item}>
         <div className={styles.question}><Typography.PrimaryHeading>F.A.Q.</Typography.PrimaryHeading></div>
         <br />
-		<p className={styles.question}>
-          What's the Event Structure?
-        </p>
-        <p className={styles.answer}>
-          Two drafts on Saturday, with open cubing from 7PM until late! Then, two cube drafts on Sunday!
-      </p>
       <p className={styles.question}>
         What Cubes Will be Available?
       </p>
@@ -34,7 +28,14 @@ export const FAQ: React.FC = () => {
         I Bought a Ticket But Can't Attend, What Happens?
       </p>        
       <p className={styles.answer}>
-        I can give you a refund up to two weeks before the event - until January 3rd, 2026. After that, reach out to me (CaseyMalone) on our Discord, I might be able to connect you with a community member on the waitlist who can take your ticket, but I can't give a refund at that point.
+        I can give you a refund up to two weeks before the event - until Monday, January 4th, 2027. After that, reach out to me (CaseyMalone) on our Discord, I might be able to connect you with a community member on the waitlist who can take your ticket, but I can't give a refund at that point.
+      </p>
+	  <p className={styles.question}>
+        Any Changes from Last Year's Event?
+      </p>        
+      <p className={styles.answer}>
+        Two things! The first is that we're adding an extra pod! More players, more cube, more fun.
+		The second is that we've removed the post-event open cubing on Saturday, and will be closing up after the second draft. 
       </p>
     </div>
 

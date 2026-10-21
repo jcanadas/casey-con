@@ -29,11 +29,6 @@ export const Schedule: React.FC = () => {
           <div className={styles.itemLabel}>Draft #2</div>
           <div className={styles.itemTime}>3PM - 7PM</div>
         </div>
-        
-        <div className={styles.item}>
-          <div className={styles.itemLabel}>Open Cubing</div>
-          <div className={styles.itemTime}>7PM - 11PM</div>
-        </div>
 
       </div>
 

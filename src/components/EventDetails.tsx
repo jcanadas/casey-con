@@ -15,7 +15,7 @@ export const EventDetails: React.FC = () => {
         {eventState === 'concluded' ? null : eventState === 'in-progress' ? (
           <div>
             <a
-              href="https://bit.ly/P1P1SignUp"
+              href="https://forms.gle/TxdtWVxDo3LJVxvH6"
               className={styles.largeButton}
             >
               Hedron Network - Register For Drafts
@@ -56,11 +56,11 @@ export const EventDetails: React.FC = () => {
       <p>
         $65 gets you entry into four Cube Drafts, two on Saturday and two on Sunday, hosted at Thymele Arts in Hollywood. There'll be snacks, prize pins, great games, and any proceeds from the event will be donated to Los Angeles mutual aid funds. Come play some dang Magic! 
       </p>
-	  <a href="https://bit.ly/P1P1SignUp" className={styles.largeButton}>
+	  <a href="https://forms.gle/TxdtWVxDo3LJVxvH6" className={styles.largeButton}>
         Register For The Event!
       </a>
-	  <a href="https://p1p1.hedron.network/cubes/" className={styles.largeButton}>
-        Hedron Network Page
+	  <a href="https://forms.gle/ofC4tYbtRU3Lybrp8" className={styles.largeButton}>
+        Submit Your Cube
       </a>
       <a href="https://discord.com/invite/mGbrWenMKg" className={styles.largeButton}>
         Join the Discord Server!

@@ -16,14 +16,6 @@ const EventDetailsPage: React.FC = () => {
           <h1 className={styles.heading}>Event Structure</h1>
 
           <p>
-            Q: What's the Event Structure?
-          </p>
-
-          <p>
-            A: Two drafts on Saturday, with open cubing from 7PM until late! Then, two cube drafts on Sunday!
-          </p>
-
-          <p>
             Q: What Cubes Will be Available?
           </p>
 
@@ -45,7 +37,7 @@ const EventDetailsPage: React.FC = () => {
           </p>
 
           <p>
-            A: I can give you a refund up to two weeks up until January 3rd, 2026. After this, reach out to me (CaseyMalone) on our Discord, I might be able to connect you with a community member on the waitlist who can take your ticket.
+            A: I can give you a refund up to two weeks up until January 4th, 2027. After this, reach out to me (CaseyMalone) on our Discord, I might be able to connect you with a community member on the waitlist who can take your ticket.
           </p>
 
 
