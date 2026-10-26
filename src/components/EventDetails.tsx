@@ -81,9 +81,9 @@ export const EventDetails: React.FC = () => {
           </a>
         </p>
 
-		<div className={styles.item}>
+		<div>
 
-        <p className={styles.answer}>
+        <p>
           <br />Off-site parking is available for $10/Day a short walk away. Street parking is available but sparse.
 		  <br /><br />The venue is also accessible from the B-Line/Western and Vermont/Santa Monica metro stops, and is along the 207 and 4 bus lines.
         </p>
