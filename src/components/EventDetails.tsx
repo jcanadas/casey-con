@@ -50,19 +50,32 @@ export const EventDetails: React.FC = () => {
           </>
         ) : null}
       </div>
-      <p><br />
+      <p>
+        <br />
         Two days of Magic: The Gathering Cube drafts here in Hollywood!
       </p>
       <p>
-        $65 gets you entry into four Cube Drafts, two on Saturday and two on Sunday, hosted at Thymele Arts in Hollywood. There'll be snacks, prize pins, great games, and any proceeds from the event will be donated to Los Angeles mutual aid funds. Come play some dang Magic! 
+        $65 gets you entry into four Cube Drafts, two on Saturday and two on
+        Sunday, hosted at Thymele Arts in Hollywood. There&apos;ll be snacks,
+        prize pins, great games, and any proceeds from the event will be donated
+        to Los Angeles mutual aid funds. Come play some dang Magic!
       </p>
-	  <a href="https://forms.gle/TxdtWVxDo3LJVxvH6" className={styles.largeButton}>
+      <a
+        href="https://forms.gle/TxdtWVxDo3LJVxvH6"
+        className={styles.largeButton}
+      >
         Register For The Event!
       </a>
-	  <a href="https://forms.gle/ofC4tYbtRU3Lybrp8" className={styles.largeButton}>
+      <a
+        href="https://forms.gle/ofC4tYbtRU3Lybrp8"
+        className={styles.largeButton}
+      >
         Submit Your Cube
       </a>
-      <a href="https://discord.com/invite/mGbrWenMKg" className={styles.largeButton}>
+      <a
+        href="https://discord.com/invite/mGbrWenMKg"
+        className={styles.largeButton}
+      >
         Join the Discord Server!
       </a>
 
@@ -81,14 +94,18 @@ export const EventDetails: React.FC = () => {
           </a>
         </p>
 
-		<div>
-
-        <p>
-          <br />Off-site parking is available for $10/Day a short walk away. Street parking is available but sparse.
-		  <br /><br />The venue is also accessible from the B-Line/Western and Vermont/Santa Monica metro stops, and is along the 207 and 4 bus lines.
-        </p>
-      </div>
-
+        <div>
+          <p>
+            <br />
+            Off-site parking is available for $10/Day a short walk away. Street
+            parking is available but sparse.
+            <br />
+            <br />
+            The venue is also accessible from the B-Line/Western and
+            Vermont/Santa Monica metro stops, and is along the 207 and 4 bus
+            lines.
+          </p>
+        </div>
       </div>
     </div>
   )

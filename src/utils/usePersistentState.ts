@@ -33,7 +33,7 @@ export function usePersistentState<T>(
 
         setStoredValue(value)
       }
-    } catch (error) {
+    } catch {
       // no-op, this can fail in some browsers in incognito mode
     }
 
@@ -47,7 +47,7 @@ export function usePersistentState<T>(
         if (key) {
           window.localStorage.setItem(key, JSON.stringify(value))
         }
-      } catch (error) {
+      } catch {
         // no-op
       }
     },

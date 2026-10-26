@@ -1,7 +1,7 @@
 import * as styles from './Header.module.css'
 
 import React from 'react'
-import { Link } from 'gatsby-link'
+import { Link } from 'gatsby'
 
 import { Logo } from 'src/components/Logo'
 
@@ -14,8 +14,11 @@ export const Header: React.FC = () => {
 
       <div className={styles.headerDetails}>
         <div>
-		  <p><font size="40">PACK ONE PICK ONE </font></p><br />
-          A Two-Day <em>Magic: The Gathering</em> Cube Event in Los Angeles, CA
+          <p>
+            <span className={styles.eventName}>PACK ONE PICK ONE </span>
+          </p>
+          <br />A Two-Day <em>Magic: The Gathering</em> Cube Event in Los
+          Angeles, CA
         </div>
         <p>TEST TEST TEST</p>
       </div>

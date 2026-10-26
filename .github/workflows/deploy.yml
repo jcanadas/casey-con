@@ -10,16 +10,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
 
       - name: Install dependencies
-        run: yarn install
+        run: npm ci
 
       - name: Clean Gatsby cache
         run: rm -rf .cache public
 
+      - name: Lint
+        run: npm run lint
+
       - name: Build Gatsby site
-        run: yarn build
+        run: npm run build
+
+      - name: Check TypeScript
+        run: npm run types:check
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
