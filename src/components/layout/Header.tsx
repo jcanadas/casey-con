@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
           <br />A Two-Day <em>Magic: The Gathering</em> Cube Event in Los
           Angeles, CA
         </div>
-        <p>TEST TEST TEST</p>
+        <p>January 16-17, 2027</p>
       </div>
     </div>
   )

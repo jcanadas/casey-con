@@ -1,11 +1,3 @@
-- name: Casey's Eternal Cube
-  url: https://cubecobra.com/cube/overview/CaseyCube
-  designer: By CaseyMalone
-  designerURL: https://cubecobra.com/user/view/60021afaac296110359bc2d2
-  imageURL: https://cards.scryfall.io/art_crop/front/f/4/f41fc718-641b-4f32-a8c1-3e5591a05bf8.jpg?1721426591
-  description:
-    An unpowered Eternal cube that features a lot of familiar archetypes
-    but with no Commander, Universes Beyond, or Draft Innovation set cards.
 - name: The Pauper Cube
   url: https://cubecobra.com/cube/overview/thepaupercube
   designer: By thepaupercube
@@ -15,3 +7,6 @@
     The original Pauper Cube, from thepaupercube.com. Formerly maintained
     by Adam Styborski and now curated by a committee and the community 
     surrounding it. Good clean Magic.
+- name: More Cubes Coming Soon!
+  description:
+    Check back closer to the event and stay tune to our Discord to learn about more cubes coming to the event...
