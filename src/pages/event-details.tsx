@@ -15,37 +15,38 @@ const EventDetailsPage: React.FC = () => {
         <div className={styles.content}>
           <h1 className={styles.heading}>Event Structure</h1>
 
-          <p>
-            Q: What Cubes Will be Available?
-          </p>
+          <p>Q: What Cubes Will be Available?</p>
 
           <p>
-            A: Cube Submissions are open, and we'll be selecting them once we're closer to the event date, but you can expect Pauper, Vintage, Commander cubes and everything in between. The list of cubes below will be updated as we get more submissions!
+            A: Cube Submissions are open, and we&apos;ll be selecting them once
+            we&apos;re closer to the event date, but you can expect Pauper,
+            Vintage, Commander cubes and everything in between. The list of
+            cubes below will be updated as we get more submissions!
           </p>
+
+          <p>Q: Which Cubes Will I Draft?</p>
 
           <p>
-            Q: Which Cubes Will I Draft?
+            A: Hedron Network, which is an incredible community made tool, will
+            let you rank your cubes in order of preference for each round.
+            Hedron Network then creates pods based on player preference. For
+            more information check out: http://hedron.network/
           </p>
+
+          <p>Q: I Bought a Ticket But Can&apos;t Attend, What Happens?</p>
 
           <p>
-            A: Hedron Network, which is an incredible community made tool, will let you rank your cubes in order of preference for each round. Hedron Network then creates pods based on player preference.
-            For more information check out: http://hedron.network/
+            A: I can give you a refund up to two weeks up until January 4th,
+            2027. After this, reach out to me (CaseyMalone) on our Discord, I
+            might be able to connect you with a community member on the waitlist
+            who can take your ticket.
           </p>
-
-          <p>
-            Q: I Bought a Ticket But Can't Attend, What Happens?
-          </p>
-
-          <p>
-            A: I can give you a refund up to two weeks up until January 4th, 2027. After this, reach out to me (CaseyMalone) on our Discord, I might be able to connect you with a community member on the waitlist who can take your ticket.
-          </p>
-
-
-
 
           <p>
             If you still have questions,{' '}
-            <a href="https://discord.com/invite/mGbrWenMKg">reach out in the discord</a>
+            <a href="https://discord.com/invite/mGbrWenMKg">
+              reach out in the discord
+            </a>
             !
           </p>
         </div>

@@ -38,3 +38,7 @@
 .headerDetails em {
   font-style: italic;
 }
+
+.eventName {
+  font-size: 3rem;
+}

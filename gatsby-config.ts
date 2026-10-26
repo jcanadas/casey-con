@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `Packone Pickone`,
     siteUrl: `http://www.packonepickone.com`
   },
-  graphqlTypegen: true,
+  graphqlTypegen: { generateOnBuild: true },
   plugins: [
     'gatsby-plugin-root-import',
     'gatsby-plugin-sitemap',
